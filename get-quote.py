@@ -1,11 +1,11 @@
-def main():
-  # print("Keep it logically awesome.")
+ Simple Addition Program
 
-  #f = open("quotes.txt")
-  #quotes = f.readlines()
-  #f.close()
+# Get user input
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
-  #print(quotes)
+# Perform addition
+result = num1 + num2
 
-if __name__== "__main__":
-  main()
+# Print the result
+print(f"The sum of {num1} and {num2} is: {result}")
